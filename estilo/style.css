@@ -1,0 +1,162 @@
+@charset "UTF-8"; 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursiva;
+    --fonte3:  'Sriracha', cursiva;
+}
+html, body {
+    min-height: 100vh;
+    background-color: rgb(247, 216, 174);
+    font-family: var(--fonte1);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.375);
+
+    
+}
+body h2 {
+    text-align: center;
+    font-size: 5vw;
+}
+* {
+    margin: 0.5%;
+    padding: 0px;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header  h1 {
+    padding-top:3vh;
+    padding-bottom: 5vh;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
+}
+header h2 {
+    padding-top: 5vh;
+}
+header p {
+    padding-bottom: 2vh;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+section h2 {
+    padding-bottom: auto;
+}
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 1.5em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size-adjust:0.5vw ;
+    
+    
+}
+section  p {
+    padding-bottom: 1.0em;
+    
+   
+}
+
+section.normal {
+    text-align: ;
+    background-color:  bisque);
+    color: black;
+    
+}
+section.imagem {
+    font-size: 1em;
+    text-align: right;
+    text-shadow: 3px 3px 3px black;
+    background-image: auto center;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(11, 9, 9, 0.964);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+
+}
+section.imagem p {
+    display: inline-block;
+    padding: 5px;
+    padding-right: 10px;
+    background-color:rgba(0, 0, 0, 0.178);
+   
+}
+section#img01 {
+    background-image: url('../imagens/background003.jpg');
+   
+
+    }
+section#img02 {
+    background-image: url('../imagens/background004.jpg');
+    
+    
+}
+section#img03 {
+    background-image: url('../imagens/background005.jpg');
+    
+    
+} 
+section#img04 {
+    background-image: url('../imagens/background006.jpg');
+    
+    
+}  
+section#img05 {
+    background-image: url('../imagens/background013.jpg');
+    
+   
+   
+   
+} 
+section#img06 {
+    background-image: url('../imagens/background009.jpg');
+    
+    
+    
+} 
+section#img07 {
+    background-image: url('../imagens/background010.jpg');
+    
+    
+   
+} 
+section#img08 {
+    background-image: url('../imagens/background014.jpg');
+    
+    
+   
+} 
+section#img09 {
+    background-image: url('../imagens/alzarating-58.webp');
+    
+    
+    
+   
+}
+section#img10 {
+    background-image: url('../imagens/revolucao-francesa-politize-2.jpg');
+} 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+}
